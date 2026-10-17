@@ -1,0 +1,10 @@
+{
+  "summary": "Verify successful payment",
+  "steps": [
+    { "action": "Login as a student.", "expectedResult": "" },
+    { "action": "Open the course.", "expectedResult": "" },
+    { "action": "Select a Master batch.", "expectedResult": "" },
+    { "action": "Complete payment.", "expectedResult": "Order status should be SUCCESS." }
+  ]
+}
+

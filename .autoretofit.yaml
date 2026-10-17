@@ -1,0 +1,8 @@
+language: java
+build: maven
+ui: selenium
+bdd: cucumber
+runner: testng
+no-new-dependencies: true
+minimal-diff: true
+do-not-modify-ci: true

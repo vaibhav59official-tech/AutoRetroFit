@@ -1,0 +1,6 @@
+Step,Expected Result
+Login as a student,
+Open the course,
+Select a Master batch,
+Complete payment,Order status should be SUCCESS
+

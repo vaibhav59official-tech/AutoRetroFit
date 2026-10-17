@@ -1,0 +1,7 @@
+node_modules/
+dist/
+**/target/
+.env
+**/.autoretofit/
+coverage/
+*.log

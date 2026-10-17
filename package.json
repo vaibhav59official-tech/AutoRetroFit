@@ -1,0 +1,19 @@
+{
+  "name": "autoretofit",
+  "version": "0.1.0",
+  "description": "Evidence-backed automation retrofit analysis for existing QA repositories.",
+  "type": "module",
+  "bin": { "autoretofit": "dist/cli.js" },
+  "files": ["dist/", "prompts/", "README.md", "LICENSE"],
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "typecheck": "tsc -p tsconfig.json --noEmit",
+    "lint": "tsc -p tsconfig.json --noEmit",
+    "test": "npm run build && node dist/remediation.test.js",
+    "dev": "node --enable-source-maps dist/cli.js",
+    "prepack": "npm run build"
+  },
+  "engines": { "node": ">=20" },
+  "dependencies": { "yaml": "^2.6.1" },
+  "devDependencies": { "@types/node": "^22.0.0", "typescript": "^5.7.0" }
+}
